@@ -7,7 +7,7 @@ try
  catch(e)
  {
   var elem = document.createElement('SCRIPT');
-  elem.src="shPyCsSql.js";
+  elem.src="shPyCsTsql.js";
   var theBody = document.getElementsByTagName('body')[0];
   theBody.appendChild(elem);
  }
